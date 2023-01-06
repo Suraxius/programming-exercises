@@ -18,3 +18,18 @@ then
 ```
 make
 ```
+
+Before editing you will get something like the following output:
+```
+Running tests on your functions...
+--------------------------------------------------------------------------------
+Testing your int add(a,b)
+add(28, 43) | expected result: 71, Actual result: 0
+--------------------------------------------------------------------------------
+
+================================================================================
+One or more tests failed. please go back into exam.c file and check your work!
+================================================================================
+```
+
+So go back into the exam.c program and fix up the add() function so it returns the right value.
