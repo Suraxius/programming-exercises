@@ -25,7 +25,7 @@ int main(void) {
 
     printf("\n================================================================================\n");
     if(rc==0) printf("CONGRATULATION! All tests succeeded.\n");
-    else      printf("One or more tests failed. please go back and check or ask Sven for help!\n");
+    else      printf("One or more tests failed. please go back into exam.c file and check your work!\n");
     printf("================================================================================\n");
     return rc;
 }
