@@ -9,3 +9,6 @@ exam.o: exam.c
 
 analyzer.o: analyzer.c
 	gcc -c analyzer.c
+
+clean:
+	rm *.o
